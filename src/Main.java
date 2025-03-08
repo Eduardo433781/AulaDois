@@ -23,6 +23,11 @@ public class Main {
         System.out.println("O nome do funcionario é: " + funcionario.nomeFuncionario);
         System.out.println("O cargo do funcionario é: " + funcionario.cargoFuncionario);
 
+         //Testando nova Branch
+         Funcionario funcionario = new EmpresaSetor();
+         System.out.println(EmpresaSetor.nomeSetorRH);
+         System.out.println(EmpresaSetor.nomeSetorJuridico)
+
         Empresa empresa = new Empresa();
         System.out.println(empresa.NomeEmpresa);
         System.out.println(empresa.CNPJEmpresa);
